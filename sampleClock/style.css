@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: slateblue;
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+#root {
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    border: 2px solid powderblue;
+}
+
+#root div {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
