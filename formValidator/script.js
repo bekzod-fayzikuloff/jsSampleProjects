@@ -7,7 +7,7 @@ $formBlock.style.marginTop = `${window.innerHeight / 2 - $formBlock.getBoundingC
 
 $submitButton.addEventListener('click', () => {
     if ($emailInput.value && $passwordInput.value) {
-        console.log(1)
+        console.log('Go fuck yourself')
     } else {
         console.log('Go fuck yourself')
     }
