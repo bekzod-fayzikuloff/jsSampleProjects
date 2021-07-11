@@ -7,9 +7,12 @@ $formBlock.style.marginTop = `${window.innerHeight / 2 - $formBlock.getBoundingC
 
 $submitButton.addEventListener('click', () => {
     if ($emailInput.value && $passwordInput.value) {
-        console.log('Go fuck yourself')
+        if ($passwordInput.value.length < 8) {
+            $passwordInput.value = ''
+            $passwordInput.placeholder = 'Your password short'
+        }
     } else {
-        console.log('Go fuck yourself')
+        alert('All fields need fill')
     }
 })
 
